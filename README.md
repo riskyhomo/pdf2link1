@@ -1,12 +1,12 @@
 # LinkedIn PDF to HTML Resume Converter (Streamlit Version)
 
-This Streamlit web application converts a LinkedIn PDF download into an HTML resume. It simulates the use of an OpenAI API key input without actually using the API for functionality.
+This Streamlit web application converts a LinkedIn PDF download into an HTML resume using OpenAI API Key
 
 ## How it works
 
-1. The user uploads a LinkedIn PDF and provides a simulated OpenAI API key.
+1. The user uploads a LinkedIn PDF and provides a  OpenAI API key.
 2. The application extracts text from the PDF using PyPDF2.
-3. The extracted text is parsed to identify different sections of the LinkedIn profile.
+3. The extracted text is parsed using openai to identify different sections of the LinkedIn profile.
 4. An HTML resume is generated using a predefined template.
 5. The generated HTML resume is presented for preview and download.
 
@@ -20,7 +20,6 @@ This Streamlit web application converts a LinkedIn PDF download into an HTML res
 
 4. **Streamlit Web Application**: We use Streamlit to create a simple and interactive web interface for file upload, resume generation, and preview.
 
-5. **Simulated API Key**: While we collect an API key from the user, it's not used in the actual functionality. This simulates the structure of an API-dependent application without the actual API usage.
 
 ## Deployment
 
